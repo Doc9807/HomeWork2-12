@@ -8,6 +8,7 @@ import java.util.List;
 
 @Service
 public class StoreServiceImpl implements StoreService {
+
     private final Basket basket;
 
     public StoreServiceImpl(Basket basket) {
